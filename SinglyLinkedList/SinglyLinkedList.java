@@ -36,6 +36,7 @@ class SinglyLinkedList{
 			default :
 				System.out.println("Enter Valid Choice");
 		}
+			System.out.println("-------------------------------------------------------------------------------------------");
 			System.out.println("Enter Your Choice : \n1. Insert at First\n2. Insert at End\n3. Display\n4.Delete\n5.countNode\n6. Exit");
 			ch = sc.nextInt();
 		}
