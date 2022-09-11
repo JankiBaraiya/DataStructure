@@ -36,7 +36,7 @@ class SinglyLinkedList{
 			default :
 				System.out.println("Enter Valid Choice");
 		}
-			System.out.println("-------------------------------------------------------------------------------------------");
+		System.out.println("-------------------------------------------------------------------------------------------");
 			System.out.println("Enter Your Choice : \n1. Insert at First\n2. Insert at End\n3. Display\n4.Delete\n5.countNode\n6. Exit");
 			ch = sc.nextInt();
 		}
@@ -88,7 +88,7 @@ class SinglyLinkedList{
 		
 		if(FIRST==null)
 		{
-			System.out.println("Underflow");
+			System.out.println("Linked List Empty");
 			return;
 		}
 		Node SAVE = FIRST;
@@ -127,6 +127,7 @@ class SinglyLinkedList{
 			SAVE = SAVE.link;
 			COUNT++;
 		}
+		COUNT++;
 		return COUNT;
 	}
 }
